@@ -205,8 +205,8 @@ To customize for your brand:
 ## 🤝 Contact
 
 For questions or support regarding this website template:
-- Email: contact@webdevpro.com
-- Website: [Your Domain]
+- Email: bavagevinod604@gmail.com
+- Website: https://prowebdev.vercel.app/
 
 ## 📄 License
 

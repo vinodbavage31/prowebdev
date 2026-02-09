@@ -32,10 +32,10 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-gradient-to-br from-primary-600 to-primary-800 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">W</span>
+                <span className="text-white font-bold text-xl">P</span>
               </div>
               <span className="text-xl font-bold">
-                WebDev<span className="text-primary-400">Pro</span>
+                <span className="text-primary-400">Pro</span>WebDev
               </span>
             </div>
             <p className="text-dark-300 leading-relaxed">

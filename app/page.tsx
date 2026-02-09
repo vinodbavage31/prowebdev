@@ -14,12 +14,12 @@ export default function Home() {
     <>
       <Hero />
       <TrustIndicators />
-      <ProblemSolution />
-      <QuickNavCards />
       <WhatWeDo />
-      <WhyChooseUs />
-      <SocialProof />
       <FeaturedProjects />
+      <WhyChooseUs />
+      <ProblemSolution />
+      <SocialProof />
+      <QuickNavCards />
       <FAQ />
       <CTA />
     </>

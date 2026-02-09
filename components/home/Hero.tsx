@@ -19,7 +19,7 @@ export default function Hero() {
           >
             <HiLightningBolt className="text-primary-600 text-xl" />
             <span className="text-sm font-semibold text-dark-700">
-              10+ Projects Delivered • Trusted by Real Clients
+              Trusted by 10+ Clients Worldwide • Award-Winning Solutions
             </span>
           </motion.div>
 
@@ -30,8 +30,8 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="heading-xl mb-6"
           >
-            We Build Websites That{' '}
-            <span className="text-gradient">Actually Work</span>
+            Transform Your Business with{' '}
+            <span className="text-gradient">Professional Websites</span>
           </motion.h1>
 
           {/* Subtext */}
@@ -41,7 +41,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-xl md:text-2xl text-dark-600 mb-12 leading-relaxed max-w-4xl mx-auto"
           >
-            Modern, scalable, and professional websites with clean UI, strong backend systems, and real business impact.
+            Enterprise-grade web solutions that drive growth. From stunning designs to powerful backend systems, we deliver excellence at every level.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -52,15 +52,15 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Link href="/services" className="btn-primary flex items-center space-x-2 group">
-                <span>View Services</span>
+              <Link href="/contact" className="btn-primary flex items-center space-x-2 group">
+                <span>Start Your Project</span>
                 <HiArrowRight className="text-xl group-hover:translate-x-1 transition-transform" />
               </Link>
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Link href="/contact" className="btn-secondary flex items-center space-x-2">
+              <Link href="/work" className="btn-secondary flex items-center space-x-2">
                 <HiCode className="text-xl" />
-                <span>Get a Website</span>
+                <span>View Portfolio</span>
               </Link>
             </motion.div>
           </motion.div>
@@ -73,10 +73,10 @@ export default function Hero() {
             className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto"
           >
             {[
-              { label: 'Modern Design', Icon: HiCode },
-              { label: 'Fast Performance', Icon: HiLightningBolt },
+              { label: 'Premium Design', Icon: HiCode },
+              { label: 'Lightning Fast', Icon: HiLightningBolt },
               { label: 'SEO Optimized', Icon: HiArrowRight },
-              { label: 'Full Ownership', Icon: HiCode },
+              { label: '100% Ownership', Icon: HiCode },
             ].map((item, index) => (
               <div key={index} className="text-center">
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-white rounded-xl shadow-md mb-2">

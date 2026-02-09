@@ -7,13 +7,13 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Premium Web Development Services | Professional Websites That Work',
-  description: 'Modern, scalable, and professional websites with clean UI, strong backend systems, and real business impact. 10+ projects delivered.',
-  keywords: 'web development, professional websites, portfolio websites, business websites, web design, full-stack development',
-  authors: [{ name: 'Premium Web Dev' }],
+  title: 'ProWebDev | Professional Web Development Services That Deliver Results',
+  description: 'Transform your business with professional websites that drive growth. Modern design, powerful systems, and exceptional user experiences. Trusted by 10+ clients worldwide.',
+  keywords: 'web development, professional websites, portfolio websites, business websites, web design, full-stack development, ProWebDev',
+  authors: [{ name: 'ProWebDev' }],
   openGraph: {
-    title: 'Premium Web Development Services',
-    description: 'We Build Websites That Actually Work',
+    title: 'ProWebDev - Professional Web Development Services',
+    description: 'Transform Your Business with Professional Websites That Actually Work',
     type: 'website',
   },
 }
